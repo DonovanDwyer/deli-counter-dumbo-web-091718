@@ -18,7 +18,7 @@ end
 
 def now_serving(arr)
   while arr.length > 0
-    puts "Currently serving #{arr.shift}"
+    puts "Currently serving #{arr.shift}."
     
   end
   puts "There is nobody waiting to be served!"
