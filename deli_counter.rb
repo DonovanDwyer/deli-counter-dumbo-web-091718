@@ -16,5 +16,10 @@ def take_a_number(arr, name)
   puts "Welcome, #{name}. You are number #{arr.length} in line."
 end
 
-
-"There is nobody waiting to be served!"
+def now_serving(arr)
+  while arr.length > 0
+    puts "Currently serving #{arr.shift}"
+    
+  end
+  puts "There is nobody waiting to be served!"
+end
