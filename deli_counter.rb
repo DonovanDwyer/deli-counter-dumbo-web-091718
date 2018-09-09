@@ -15,3 +15,6 @@ def take_a_number(arr, name)
   arr.push(name)
   puts "Welcome, #{name}. You are number #{arr.length} in line."
 end
+
+
+"There is nobody waiting to be served!"
